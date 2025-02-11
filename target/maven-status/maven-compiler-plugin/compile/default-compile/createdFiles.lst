@@ -1,0 +1,4 @@
+com\user\UserDao.class
+com\user\User.class
+com\user\UserController.class
+com\user\UserService.class
