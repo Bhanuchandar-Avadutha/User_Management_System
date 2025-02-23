@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Show USer Details</title>
+<title>Show User Details</title>
 <style>
         table {
             width: 75%;
@@ -62,9 +62,9 @@
 				<tr>
 					<td>${user.userId}</td>
 					<td>${user.userName}</td>
-					<td>${user.mobile}</td>
 					<td>${user.password}</td>
 					<td>${user.city}</td>
+					<td>${user.mobile}</td>
 					
 					<td><input style="background-color:green; color:white; border-radius: 12px; height: 5vh; width: 60px;" type="button" onclick="edituser('${user.userId}')" value="Edit" /></td>
 					<td><input  style="background-color:red;color:white; border-radius: 12px; height: 5vh; width: 75px;" type="button" onclick="deleteuser('${user.userId}')" value="Delete" /></td>
